@@ -1,0 +1,617 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "SquareInACircleWorld Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win32",
+				"Debug",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win32",
+				"Debug",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win32",
+				"DebugGame",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win32",
+				"DebugGame",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win32",
+				"Development",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win32",
+				"Development",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win32",
+				"Shipping",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win32",
+				"Shipping",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win32",
+				"Test",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win32",
+				"Test",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win64",
+				"Debug",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win64",
+				"Debug",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win64",
+				"DebugGame",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win64",
+				"DebugGame",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win64",
+				"Development",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win64",
+				"Development",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win64",
+				"Shipping",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win64",
+				"Shipping",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win64",
+				"Test",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"Win64",
+				"Test",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"HTML5",
+				"Debug",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"HTML5",
+				"Debug",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"HTML5",
+				"DebugGame",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"HTML5",
+				"DebugGame",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"HTML5",
+				"Development",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"HTML5",
+				"Development",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"HTML5",
+				"Shipping",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"HTML5",
+				"Shipping",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"HTML5",
+				"Test",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorld HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorld",
+				"HTML5",
+				"Test",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorldEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorldEditor",
+				"Win64",
+				"Debug",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorldEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorldEditor",
+				"Win64",
+				"Debug",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorldEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorldEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorldEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorldEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorldEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SquareInACircleWorldEditor",
+				"Win64",
+				"Development",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "SquareInACircleWorldEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SquareInACircleWorldEditor",
+				"Win64",
+				"Development",
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.18"
+			}
+		}
+	]
+}

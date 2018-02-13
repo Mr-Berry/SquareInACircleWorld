@@ -1,0 +1,114 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "SquareInACircleWorld (Debug)",
+			"request": "launch",
+			"preLaunchTask": "SquareInACircleWorld Win64 Debug Build",
+			"program": "D:\\GameDev\\_Projects\\SquareInACircleWorld\\Binaries\\Win64\\SquareInACircleWorld-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SquareInACircleWorld (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "SquareInACircleWorld Win64 DebugGame Build",
+			"program": "D:\\GameDev\\_Projects\\SquareInACircleWorld\\Binaries\\Win64\\SquareInACircleWorld-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SquareInACircleWorld (Development)",
+			"request": "launch",
+			"preLaunchTask": "SquareInACircleWorld Win64 Development Build",
+			"program": "D:\\GameDev\\_Projects\\SquareInACircleWorld\\Binaries\\Win64\\SquareInACircleWorld.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SquareInACircleWorld (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "SquareInACircleWorld Win64 Shipping Build",
+			"program": "D:\\GameDev\\_Projects\\SquareInACircleWorld\\Binaries\\Win64\\SquareInACircleWorld-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SquareInACircleWorld (Test)",
+			"request": "launch",
+			"preLaunchTask": "SquareInACircleWorld Win64 Test Build",
+			"program": "D:\\GameDev\\_Projects\\SquareInACircleWorld\\Binaries\\Win64\\SquareInACircleWorld-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SquareInACircleWorldEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "SquareInACircleWorldEditor Win64 Debug Build",
+			"program": "D:\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-debug"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SquareInACircleWorldEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "SquareInACircleWorldEditor Win64 DebugGame Build",
+			"program": "D:\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject",
+				"-debug"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SquareInACircleWorldEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "SquareInACircleWorldEditor Win64 Development Build",
+			"program": "D:\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\GameDev\\_Projects\\SquareInACircleWorld\\SquareInACircleWorld.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		}
+	]
+}

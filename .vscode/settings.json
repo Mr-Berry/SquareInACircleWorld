@@ -1,0 +1,11 @@
+{
+	"typescript.tsc.autoDetect": "off",
+	"files.exclude": {
+		"D:/GameDev/_Projects/SquareInACircleWorld/.git": true,
+		"D:/GameDev/_Projects/SquareInACircleWorld/.vs": true,
+		"D:/GameDev/_Projects/SquareInACircleWorld/.vscode": true,
+		"D:/GameDev/_Projects/SquareInACircleWorld/Content": true,
+		"D:/GameDev/_Projects/SquareInACircleWorld/Intermediate": true,
+		"D:/GameDev/_Projects/SquareInACircleWorld/Saved": true
+	}
+}
